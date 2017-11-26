@@ -1,0 +1,75 @@
+<PISI>
+    <Source>
+        <Name>perl-extutils-xspp</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>Artistic-1.0-Perl</License>
+        <PartOf>programming.perl</PartOf>
+        <Summary xml:lang="en">ExtUtils::XSpp - XS for C++</Summary>
+        <Description xml:lang="en">ExtUtils::XSpp - XS for C++
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>perl-extutils-xspp</Name>
+        <Summary xml:lang="en">ExtUtils::XSpp - XS for C++</Summary>
+        <Description xml:lang="en">ExtUtils::XSpp - XS for C++
+</Description>
+        <PartOf>programming.perl</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp.pod</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Cmd.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Driver.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Exception.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Exception/code.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Exception/object.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Exception/perlcode.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Exception/simple.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Exception/stdmessage.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Exception/unknown.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Grammar.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Lexer.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Access.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Argument.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Class.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Comment.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Constructor.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Destructor.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Enum.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/EnumValue.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/File.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Function.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Member.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Method.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Module.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Package.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/PercAny.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Preprocessor.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Raw.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Node/Type.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Parser.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Plugin.pod</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Plugin/feature/default_xs_typemap.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Typemap.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Typemap/parsed.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Typemap/reference.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Typemap/simple.pm</Path>
+            <Path fileType="library">/usr/lib/perl5/vendor_perl/5.24.1/ExtUtils/XSpp/Typemap/wrapper.pm</Path>
+            <Path fileType="man">/usr/share/man</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-11-26</Date>
+            <Version>0.18</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>
